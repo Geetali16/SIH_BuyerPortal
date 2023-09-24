@@ -128,7 +128,7 @@ function Navbar() {
             direction="row"
             spacing={2}
             justify="center"
-            sx={{ backgroundColor: "#CBC3E3", flexGrow: 1.5 }}
+            sx={{ backgroundColor: "#E0FFFF", flexGrow: 1.5 }}
           >
             {items.map((item) => (
               <Button

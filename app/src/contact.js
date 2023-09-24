@@ -91,12 +91,12 @@ function Contact() {
         <center><u>Jaypee Institute of Information Technology, 62</u></center> <br/>
         <center><b> TEAM_11</b></center> <br/>
         <b>Team Members  with their  email Ids </b><br/><br/>
-        Geetali Agarwal  &nbsp;&nbsp; geetaliag02@gmail.com <br/>
-        Riya Kansal &nbsp;&nbsp;@<br/> 
-        Vriti Dawra &nbsp;&nbsp;@<br/>
-        Nandini Agrawal&nbsp;&nbsp; @<br/>
-        Nehal Jain  &nbsp;&nbsp;@<br/>
-        Kashish Garg &nbsp;&nbsp; @<br/>
+        Geetali Agarwal  &nbsp;&nbsp;&nbsp;&nbsp; geetaliag02@gmail.com <br/>
+        Riya Kansal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;riyakl@gmail.com<br/> 
+        Vriti Dawra &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; vritida12@gmail.com<br/>
+        Nandini Agrawal&nbsp;&nbsp;&nbsp; nandiniagl@gmail.com<br/>
+        Nehal Jain  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nehaljain@gmail.com<br/>
+        Kashish Garg &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gargkashish@gmail.com<br/>
         <div
           style={{
             marginTop: "2rem",

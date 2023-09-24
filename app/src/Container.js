@@ -6,6 +6,9 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import { CategoryContext } from "./App";
 import { useNavigate } from "react-router-dom";
+import { yellow } from "@mui/material/colors";
+
+const customFontFamily = "YourCustomFont, sans-serif";
 
 export default function Container({ name }) {
   const { setCat } = useContext(CategoryContext);
@@ -18,6 +21,7 @@ export default function Container({ name }) {
     <Card
       sx={{
         width: "19rem",
+        backgroundColor: "#F5F5DC",
       }}
     >
       <CardActionArea onClick={useHandleClick}>
@@ -28,11 +32,20 @@ export default function Container({ name }) {
           }}
           component="img"
           image={`/images/${name}.jpg`}
-          alt=""
+          alt="Image removed"
+          
         />
         <CardContent>
-          <Typography variant="h5" component="div">
+          <Typography variant="h5" component="div" fontFamily={customFontFamily}>
             {name}
+          </Typography> <br/>
+          <Typography variant="h7" component="div" align="left">
+            Price : to be fetched <br/>
+            Seller Industry : to be fetched <br/>
+            Quality : to be fetched<br/>
+            Rating : NULL <br/>
+            Location : to be fetched <br/>
+            Description : to be fetched
           </Typography>
         </CardContent>
       </CardActionArea>
